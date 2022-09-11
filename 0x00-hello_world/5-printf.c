@@ -1,7 +1,6 @@
-#include <stdio>
+#include <stdio.h>
 /**
- * main - prints string with printf function
- *
+ * main - prints the string character with printf function
  * Return: 0
  */
 int main(void)
