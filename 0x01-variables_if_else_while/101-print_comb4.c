@@ -21,7 +21,7 @@ int main(void)
 		{
 			putchar(f_d);
 			putchar(m_d);
-			putchara(i_d);
+			putchar(i_d);
 
 			if (c != 789)
 			{
