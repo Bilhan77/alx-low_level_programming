@@ -1,8 +1,10 @@
 #include <stdio.h>
+
 /**
  * main - function that checks for uppercase character.
  * Return: 0
  */
+
 int main(void)
 {
 	while (h <= 100)
