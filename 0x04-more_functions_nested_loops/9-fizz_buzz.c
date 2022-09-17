@@ -7,25 +7,24 @@
 
 int main(void)
 {
-	while (h <= 100)
+	int i;
+	char f = "Fizz";
+	char b = "Buzz";
+	char fb = "FizzBuzz";
+
+	for (i = 1; i <= 100; i++)
 	{
-		if (h % 3 == 0 && h % 5 == 0)
-			printf("FizzBuzz ");
-		else if (h % 5 == 0)
-		{
-			if (h == 100)
-			{
-				printf("Buzz");
-				printf("\n");
-			}
-			else
-				printf("Buzz ");
-		}
-		else if (h % 3 == 0)
-			printf("Fizz ");
+		if (i == 100)
+			printf("%s", b);
+		else if ((i % 3 == 0) && (i % 5 == 0))
+			printf("%s", fb);
+		else if (i % 3 == 0)
+			printf("%s", f);
+		else if (i % 5 == 0)
+			printf("%s ", b);
 		else
-			printf("%d ", h);
-		h++;
+			printf("%d ", i);
 	}
-	return (0);
+			printf("\n");
+			return (0);
 }
