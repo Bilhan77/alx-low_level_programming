@@ -8,7 +8,7 @@
 
 int len(char *str)
 {
-	int len = 0
+	int len = 0;
 
 	if (str != NULL)
 	{
@@ -22,7 +22,6 @@ int len(char *str)
  * argstostr - a function that concatenates all the arguments of your program
  * @ac: count of args passed to the function
  * @av: array of arguments
- * @argstostr: concatenates all the arguments of your program
  *
  * Returns: pointer to the new string
  */
