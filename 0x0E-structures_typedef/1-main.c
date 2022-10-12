@@ -2,9 +2,9 @@
 #include "dog.h"
 
 /**
- * main - check the code for alx students
+ * main - check the code alx students
  *
- * Return: Always 0.
+ * Return: Always 0
  */
 
 int main(void)
