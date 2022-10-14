@@ -55,7 +55,7 @@ void print_f(va_list f)
 }
 
 /**
- * printf_all - prints anything
+ * print_all - prints anything
  * @format: list of argument types passed to the function
  *
  * Return: void
