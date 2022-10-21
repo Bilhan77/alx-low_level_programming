@@ -1,16 +1,22 @@
-#include "main.h"
+#include "lists.h"
 
 /**
- * _isdigit - checks whether a  character is a digit or not
- * @c: tested character
- * Return: 1 if it is, 0 otherwise
+ * list_len - Finds the number of elements in
+ *            a linked list_t list.
+ * @h: The linked list_t list.
+ *
+ * Return: The number of elements in h.
  */
 
-int _isdigit(int c)
+size_t list_len(const list_t *h)
 {
-	if ((c >= 48) && (c <= 57))
+	size_t elements = 0;
+
+	while (h)
 	{
-		return (1);
+		elements++;
+		h = h->next;
 	}
-	return (0);
+
+	return (elements);
 }
